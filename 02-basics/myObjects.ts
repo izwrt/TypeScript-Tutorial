@@ -30,10 +30,11 @@ function createCourse({ name, isPaid }: { name: string; isPaid: boolean }): { na
 const course = createCourse({ name: User.name, isPaid: User.isActive });
 console.log(course);
 
-// 🔥 Best Practices
+//  Best Practices
 // 1️⃣ Always define types **outside** of destructured parameters.
 // 2️⃣ Use **Type Aliases** for better readability and maintainability.
 // 3️⃣ Ensure that returned values match the expected type.
 // 4️⃣ Avoid modifying the original object inside a function.
 
-export {};
+export { };
+

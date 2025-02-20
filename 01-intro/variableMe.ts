@@ -4,6 +4,7 @@
 
 // String Type
 let greetings: string = "Hello Ishwar";
+console.log(greetings);
 
 // ❌ Error: Type 'number' is not assignable to type 'string'
 // greetings = 6;  // This will cause a TypeScript error
@@ -11,6 +12,13 @@ let greetings: string = "Hello Ishwar";
 // Number Type
 let userId: number = 6789.3; // Even decimals are considered numbers in TypeScript
 
-console.log(greetings);
+// Not good practice 
+// let userId:number
+// userId = 6789.3; // Here you just overuse the TypeScript
 
-export {}; // Ensures the module scope is maintained
+// boolean
+let isLoggedIn: boolean = false;
+
+
+export { }; // Ensures the module scope is maintained
+

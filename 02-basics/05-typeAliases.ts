@@ -21,3 +21,17 @@ type Point = {
   // printCoord({ x: "100", y: 100 }); // ❌ Error: x must be a number
   // printCoord({ x: 100 }); // ❌ Error: Missing y property
   
+
+  // Define an interface with an optional property
+type UserType = {
+    id: number;
+    name: string;
+    email?: string; // 'email' is optional
+  }
+  
+  const user1: UserType = { id: 1, name: "Alice" };
+  const user2: UserType = { id: 2, name: "Bob", email: "bob@example.com" };
+  
+  console.log(user1); // Valid: no email provided
+  console.log(user2); // Valid: email is provided
+  

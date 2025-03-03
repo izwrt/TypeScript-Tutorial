@@ -1,0 +1,16 @@
+{
+  "name": "03-advance",
+  "version": "1.0.0",
+  "description": "🚀 Welcome to the **TypeScript Tutorial**! This repository contains detailed notes and practical examples to help you master TypeScript, a powerful superset of JavaScript that brings static typing, interfaces, and enhanced tooling support.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

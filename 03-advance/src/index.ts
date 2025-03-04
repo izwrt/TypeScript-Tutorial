@@ -49,3 +49,7 @@ class SubUser extends User {
 // Creating an instance of the User class
 const ishwar = new User("i@i.com", "ishwar");
 console.log(ishwar);
+
+export {
+    
+}

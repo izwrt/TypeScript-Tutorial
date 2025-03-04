@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // User class with access modifiers
 class User {
     // Constructor with public and private parameters

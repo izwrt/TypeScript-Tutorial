@@ -1,10 +1,11 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // Class 'Instagram' implements 'TakePhoto' interface and must define all its properties
 class Instagram {
     constructor(cameraMode, filter, burst) {
-        this.cameraMode = cameraMode;
         this.filter = filter;
         this.burst = burst;
+        this.cameraMode = cameraMode;
     }
 }
 // Class 'Youtube' implements both 'TakePhoto' and 'Story' interfaces

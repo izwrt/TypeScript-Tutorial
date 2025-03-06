@@ -53,3 +53,5 @@ console.log(tp.Login()); // Output: "Logged In...!"
 
 // Calling the implemented 'Story' method
 tp.Story(); // Output: "New Story Added"
+
+export {}
